@@ -2,28 +2,22 @@
 
 ## Update Raspberry Pi
 
-```
+```console
 sudo apt-get update
 ```
 
-```
+```console
 sudo apt-get dist-upgrade
 ```
 
-```
+```console
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```
 
-```
+```console
 sudo apt-get install -y nodejs
 ```
 
-```
+```console
 node -v
-```
-
-To get git pull cronejob running
-
-```
-sudo apt-get install python3-git
 ```
