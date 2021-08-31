@@ -1,0 +1,24 @@
+{
+  "name": "raspberry-pi-server",
+  "version": "1.0.0",
+  "description": "```\r sudo apt-get update\r ```",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmelto/raspberry-pi-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmelto/raspberry-pi-server/issues"
+  },
+  "homepage": "https://github.com/schmelto/raspberry-pi-server#readme"
+}
