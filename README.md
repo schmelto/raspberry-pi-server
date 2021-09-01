@@ -31,3 +31,11 @@ sudo apt-get install -y nodejs
 ```console
 node -v
 ```
+
+```console
+sudo apt-get install mongodb-server
+```
+
+```console
+mongo --version
+```
