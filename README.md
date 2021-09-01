@@ -1,5 +1,15 @@
 # raspberry-pi-server
 
+## Start Server
+
+```console
+npm install
+npm start
+```
+
+This will start a NodeJs Server on the Raspberry Pi.
+If there are any changes in the code (pulled with `git pull`), the server will restart automatically.
+
 ## Update Raspberry Pi
 
 ```console
