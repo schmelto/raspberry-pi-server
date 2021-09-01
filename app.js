@@ -10,6 +10,11 @@ app.get("/names", (req, res) => {
   res.json(["Tony", "Lisa", "Michael", "Ginger", "Food"]);
 });
 
+//get info
+app.get("/info", (req, res) => {
+    res.json({});
+});
+
 app.listen(3000, () => {
   console.log("Server running on port 3000");
 });
