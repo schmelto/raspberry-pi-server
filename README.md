@@ -2,6 +2,14 @@
 
 ## Start Server
 
+To connect to the Rasperry Pi you can use SSH.
+
+```console
+ssh raspberrypi -l pi
+```
+
+Than you have to start the server.
+
 ```console
 npm install
 npm start
